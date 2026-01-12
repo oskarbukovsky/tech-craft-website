@@ -1,7 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Download, Server, MessageSquare, Play } from "lucide-react"
-import { SERVER_IP } from "./server-status"
 
 const steps = [
   {
@@ -30,7 +29,7 @@ const steps = [
     number: "3",
     icon: Server,
     title: "Připoj se na server",
-    description: `Přidej náš server do svého seznamu serverů pomocí IP: ${SERVER_IP}`,
+    description: "Přidej náš server do svého seznamu serverů pomocí IP: play-tech-craft.666777123.xyz",
   },
   {
     number: "4",
